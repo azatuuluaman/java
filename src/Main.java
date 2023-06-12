@@ -88,8 +88,68 @@ public class Main {
 //            i++;
 //        }
 
+        // одномерный массив, который с помощью цикла перебирает список из флоат
+//        float [] arr = new float [] {56.2f, 489.2f, 325.2f, 678.254f};
+//        for (int i = 0; i < 4; i++ ){
+//            System.out.println ("Element " + i + " is " + arr[i]);
+//        }
+
+        // многомерный массив
+//            int [][] arr = new int[][] {
+//                    {23, 78,65,78},
+//                    {23, 78,65,78},
+//                    {23, 78,65,78}
+//             };
+//            arr[1][1] = 234;
+//
+//
+//            for (int i =0; i < 3; i++) {
+//                for (int j = 0; j < 4; j++) {
+//                    System.out.print(arr[i][j] + " ");
+//                }
+//                System.out.println("");
+//            }
 
 
-        }
+    Person maks = new Person(180, 78.4f); // объект макс , объект класса персон. Конструктор - при помощи неё можно указывать значения сразу при создании обьекта
+
+
+    maks.say("Hi, I'm Maks!");
+    System.out.println(maks.height);
+
+    Person oleg = new Person();
+    oleg.height = 195;
+    oleg.weight = 96.7f;
+
+    System.out.print(oleg. height);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //  методы (они же функции)
+//        int temp = func(2,3);
+//        System.out.print("Result is: " + temp);
+//        }
+//    public static int func (int a, int b) {
+////        чтобы функция принадлежала к классу, public + static
+//        int res;
+//        res = a + b;
+//        return res;
+
+
+    }
     }
 //}
