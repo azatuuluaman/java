@@ -4,7 +4,7 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) { // static - при помощи неё можно создать перемнную , либо функцию в каком либо классе и обращаться к ней без создания самого объекта
 //        byte num = 2; // маленькие числа
 //        int i = 234567; // больше
 //        long l = 452232225;
@@ -113,7 +113,7 @@ public class Main {
 
     Person maks = new Person(180, 78.4f); // объект макс , объект класса персон. Конструктор - при помощи неё можно указывать значения сразу при создании обьекта
 
-
+    System.out.println(Person.summ);
     maks.say("Hi, I'm Maks!");
     System.out.println(maks.height);
 
@@ -121,8 +121,10 @@ public class Main {
     oleg.height = 195;
     oleg.weight = 96.7f;
 
-    System.out.print(oleg. height);
+    System.out.println(oleg. height);
 
+    Student vova = new Student(178, 98f, 3);
+    System.out.println("Student course: " + vova.course);
 
 
 
