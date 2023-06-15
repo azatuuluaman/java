@@ -111,20 +111,20 @@ public class Main {
 //            }
 
 
-    Person maks = new Person(180, 78.4f); // объект макс , объект класса персон. Конструктор - при помощи неё можно указывать значения сразу при создании обьекта
-
-    System.out.println(Person.summ);
-    maks.say("Hi, I'm Maks!");
-    System.out.println(maks.height);
-
-    Person oleg = new Person();
-    oleg.height = 195;
-    oleg.weight = 96.7f;
-
-    System.out.println(oleg. height);
-
-    Student vova = new Student(178, 98f, 3);
-    System.out.println("Student course: " + vova.course);
+//    Person maks = new Person(180, 78.4f); // объект макс , объект класса персон. Конструктор - при помощи неё можно указывать значения сразу при создании обьекта
+//
+//    System.out.println(Person.summ);
+//    maks.say("Hi, I'm Maks!");
+//    System.out.println(maks.height);
+//
+//    Person oleg = new Person();
+//    oleg.height = 195;
+//    oleg.weight = 96.7f;
+//
+//    System.out.println(oleg. height);
+//
+//    Student vova = new Student(178, 98f, 3);
+//    System.out.println("Student course: " + vova.course);
 
 
 
